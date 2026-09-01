@@ -1,0 +1,7 @@
+case_id,timestamp,ai_root_cause,ai_confidence,human_decision,human_root_cause,human_correction,reviewer_reason,evidence_reference,review_source
+CASE003,2026-08-25T09:00:00Z,Wrong default gateway configuration,0.81,Edited,Default gateway missing on DHCP scope,AI missed the DHCP scope default gateway issue,The DHCP pool had the wrong gateway address,CASE003: PENDING case evidence,DEMO/HUMAN REVIEW EXAMPLES
+CASE009,2026-08-25T09:05:00Z,Missing route to remote network,0.86,Accepted,Missing route to remote network,No change,Route absence matched the observed evidence,CASE009: PENDING case evidence,DEMO/HUMAN REVIEW EXAMPLES
+CASE012,2026-08-25T09:10:00Z,Trunk VLAN mismatch,0.72,Rejected,Allowed VLAN list missing on trunk,AI over-attributed the issue to a trunk encapsulation mismatch,The evidence showed a missing VLAN in the allowed list,CASE012: PENDING case evidence,DEMO/HUMAN REVIEW EXAMPLES
+CASE020,2026-08-25T09:15:00Z,ACL denies HTTP,0.75,Edited,ACL blocks TCP 80 to the web server,AI did not specify that the deny rule matched HTTP traffic,The ACL sequence denied TCP 80,CASE020: PENDING case evidence,DEMO/HUMAN REVIEW EXAMPLES
+CASE024,2026-08-25T09:20:00Z,Wireless VLAN DHCP path is misconfigured,0.79,Accepted,Wireless VLAN DHCP path is misconfigured,No change,The DHCP scope and wireless access VLAN matched the diagnosis,CASE024: PENDING case evidence,DEMO/HUMAN REVIEW EXAMPLES
+CASE001,2026-09-01T11:02:30Z,,0.0,Accepted,,,No correction needed.,CASE001: REFERENCE case evidence,real

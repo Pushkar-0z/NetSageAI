@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/ai_responses/
+.vscode/
+.DS_Store
+*.log
